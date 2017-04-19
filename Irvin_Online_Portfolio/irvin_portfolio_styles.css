@@ -1,0 +1,139 @@
+/*Irvin Website Portfolio
+  Author: Irvin Vargas
+  Date: 03/14/2017
+*/
+
+/* Body styles */
+body{
+	background-color: #E6E6FA;
+	margin: 0px auto;
+	padding: 1.5rem;
+	line-height: 1.5em;
+	width: 100%;
+	height: 100%;
+	max-width: 1150px;
+	min-width: 900px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Header styles */
+header{
+	font-family: "Times New Roman", Times, serif;
+	width: 100%;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+h1{
+	font-size: 55px;
+}
+
+h2{
+	color:	#696969;
+}
+/* h2 for the project name where it should be centered */
+#project_name_title{
+	text-align: center;
+}
+
+/* Link styles */
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:active {
+	color: white;
+}
+
+a:hover {
+	color: yellow;
+}
+
+h2 a:link {
+	color: #696969;
+}
+
+h2 a:visited{
+	color:	#696969;
+}
+
+h2 a:hover {
+	color: yellow;
+}
+li a:link{
+	color: #696969;
+}
+#itemLink li a:link{
+	color: #696969;
+}
+#itemLink a:visited{
+	color: #696969;
+}
+
+
+/* Nav styles */
+nav {
+	clear: left;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}
+
+nav ul {
+	margin: auto;
+	font-size: 1.0em;
+}
+
+nav ul li {
+	list-style-type: none;/* no marks for list items */
+	display: block;
+	float: left;
+	width: 50%;
+	height: 22px;
+	text-align: center;
+	background-color: black;
+	line-height: 1.0em;
+}
+
+/* article styles */
+article{
+	display: block;
+	width: 90%;
+	margin: auto;
+}
+
+#project_paragraphs{
+	text-align: center;
+}
+
+/* Image styles */
+#project_images{
+	display: block;
+    max-width: 1150px;
+    max-height: 647px;
+	min-width: 900px;
+	min-height: 506px;
+	text-align: center; /* centers the image */
+}
+/* Contact list styles */
+#contactList{
+	/*list-style-type: none; no marks for list items */
+	/*display: block;*/
+	/*width: 100%;*/
+}
+
+/* Footer stytles */
+footer {
+text-align: center;
+margin-top: 5px;
+padding: 2rem;
+}
+
+footer address {
+font-size: 1.0em;
+}
